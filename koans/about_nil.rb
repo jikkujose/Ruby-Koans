@@ -15,8 +15,6 @@ class AboutNil < Neo::Koan
       # What exception has been caught?
       assert_equal NoMethodError, ex.class
 
-      puts "Jiks: #{ex.message}"
-
       # What message was attached to the exception?
       # (HINT: replace __ with part of the error message.)
       assert_match(/undefined/, ex.message)
