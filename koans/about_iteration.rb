@@ -14,7 +14,7 @@ class AboutIteration < Neo::Koan
     end
   end
 
-  in_ruby_version("1.9", "2.0") do
+  in_ruby_version("1.9", "2.0","2.1") do
     def as_name(name)
       name.to_sym
     end
